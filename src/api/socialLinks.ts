@@ -4,8 +4,8 @@ export interface socialLink{
   url: (url:string) => void;
 }
 
-type platform = (platform:string);
-type url = (url:string);
+type platform = (platform:string) => void;
+type url = (url:string) => void;
 let socialLinks = {
   twitter: {
     platform: "twitter",
