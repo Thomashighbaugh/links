@@ -1,4 +1,4 @@
-export const socialLinks = {
+let socialLinks = {
   twitter: {
     platform: "twitter",
     url: "https://twitter.com/thomashighbaugh",
@@ -53,3 +53,5 @@ export const socialLinks = {
     url: "https://discordapp.com/users/3886",
   },
 };
+
+export {socialLinks}
