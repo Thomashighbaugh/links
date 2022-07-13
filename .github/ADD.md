@@ -1,6 +1,8 @@
 # Links to Add
 
-- [ ] dribbble
-- [ ] telegram
-- [x] gitlab
-- [ ] gumroad
+TODO dribbble
+TODO telegram
+DONE gitlab
+TODO gumroad
+TODO email 1
+TODO email 2
