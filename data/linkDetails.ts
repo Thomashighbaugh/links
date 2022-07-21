@@ -26,41 +26,37 @@ export const CardData: Array<CardProps> = [
   {
     href: "https://thomasleonhighbaugh.me",
     title: "Portfolio",
-    description:
-      "My distinctive web front-end with a particularly tasteful svg animation on the homepage.",
+    description: "",
   },
   {
     href: "https://resume-thomas-leon-highbaugh.vercel.app/",
     title: "Resume",
-    description: "Since I wrote my resume in HTML, I hosted it too!",
+    description: "",
   },
   {
     href: "https://www.linkedin.com/in/thomas-leon-highbaugh",
     title: "Linkedin",
-    description: "Let's connect on LinkedIn",
+    description: "",
   },
   {
     href: "https://www.instagram.com/thomashighbaugh/",
     title: "Instagram",
-    description:
-      "Where I post my art and IFTTT + Instapy take care of the rest.",
+    description: "",
   },
   {
     href: "https://github.com/Thomashighbaugh",
     title: "Github",
-    description:
-      "My main Github presence, the corner of the web I frequent the most.",
+    description: "",
   },
   {
     href: "https://gitlab.com/Thomashighbaugh",
     title: "Gitlab",
-    description: "Automatically backed up from Github",
+    description: "",
   },
   {
     href: "https://twitter.com/thomashighbaugh",
     title: "Twitter",
-    description:
-      "Mostly handled by IFTTT, which I use to broadcast my activity",
+    description: "",
   },
   {
     href: "https://web.whatsapp.com/",
