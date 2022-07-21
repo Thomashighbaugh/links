@@ -3,6 +3,7 @@ import Head from "next/head";
 import AllCards from "../components/AllCards";
 import { Heading, Flex, Text } from "@chakra-ui/react";
 import { fullName, tagline } from "../data/mainDetails";
+import "../styles/index.css";
 
 const Home: NextPage = () => {
   return (
