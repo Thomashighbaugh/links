@@ -16,6 +16,12 @@ description: if necessary descriptive text
 
 */
 
+// TODO add in telegram
+// TODO add in buy me a coffee
+// TODO add in patreon
+// TODO add in kofi
+// TODO add in email links
+
 export interface CardProps {
   href: string;
   title: string;
