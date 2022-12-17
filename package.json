@@ -1,33 +1,35 @@
 {
-  "name": "linkhub",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@chakra-ui/react": "^1.7.4",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.5.2",
-    "@tailwindcss/typography": "^0.5.4",
-    "autoprefixer": "^10.4.7",
-    "cssnano": "^5.1.12",
-    "framer-motion": "^5.5.5",
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.3.1",
-    "tailwindcss": "^3.1.6"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.8",
-    "@types/react": "17.0.38",
-    "eslint": "8.6.0",
-    "eslint-config-next": "12.0.7",
-    "typescript": "4.5.4"
-  }
+	"private": true,
+	"name": "business-link-next",
+	"version": "0.0.1",
+	"author": "Doinel Atanasiu - doinel1atanasiu@gmail.com",
+	"description": "Open source Linktree alternative developed with Next.JS, TypeScript & Tailwind CSS.",
+	"repository": "https://github.com/doinel1a/business-link-next",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.2.0",
+		"@fortawesome/free-brands-svg-icons": "^6.2.0",
+		"@fortawesome/free-regular-svg-icons": "^6.2.0",
+		"@fortawesome/free-solid-svg-icons": "^6.2.0",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"copy-to-clipboard": "^3.3.2",
+		"next": "^12.3.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.8.0",
+		"@types/react": "^18.0.21",
+		"@types/react-dom": "^18.0.6",
+		"autoprefixer": "^10.4.12",
+		"cssnano": "^5.1.13",
+		"postcss": "^8.4.17",
+		"tailwindcss": "^3.1.8",
+		"typescript": "^4.8.4"
+	}
 }
