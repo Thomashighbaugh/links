@@ -23,7 +23,7 @@ const links = [
 	{
 		text: 'Discord',
 		icon: faDiscord,
-		url: ''
+		url: 'https://discord.com/ThomasHighbaugh#3886'
 	},
 
 	{
