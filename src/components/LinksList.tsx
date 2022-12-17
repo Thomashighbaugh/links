@@ -10,7 +10,7 @@ export default function LinksList() {
 					key={link.text}
 					title={link.text}
 					tabIndex={0}
-					className=' mb-4 sm:mb-0 md:mb-4 px-2 min-w-[28%] md:mx-4 lg:mx-4 xl:mx-8 rounded bg-accent-primary transition-all duration-200 hover:bg-accent-primary-state hover:-translate-y-2
+					className=' mb-4 sm:mb-0 md:mb-4 px-2 min-w-[28%] md:mx-4 lg:mx-4 xl:mx-4 rounded bg-accent-primary transition-all duration-200 hover:bg-accent-primary-state hover:-translate-y-2
                 focus:bg-accent-primary-state focus:-translate-y-2'
 				>
 					<a
