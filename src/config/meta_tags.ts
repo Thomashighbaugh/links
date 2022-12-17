@@ -1,4 +1,4 @@
-const app_url = '';
+const app_url = 'https://biolink-delta.vercel.app/';
 
 const meta_tags = {
 	app_url,
