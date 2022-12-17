@@ -15,4 +15,8 @@ A responsive linktree alternative, written in `tsx` with `next.js` & `tailwind.c
 - `tsx` - React in Typescript, the primary programming language
 - `heropatterns` - svg background pattern 
 
+## Reason
 
+I wanted a single location to enumerate all of my various links to various profiles and web stores I have, saving me time copy pasting or memorizing them all. 
+
+There are several commercial solutions that would provide me such a page, at a price. Yet these solutions aren't quite as nice looking as I would prefer and since I write my own websites already, using one of those solutions doesn't make sense. Especially not when static sites like this are easily hosted for free on platforms like the very awesome Vercel, where this site ended up being hosted. 
