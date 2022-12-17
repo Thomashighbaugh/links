@@ -17,7 +17,7 @@ export default function ButtonCopy({ title, contentToCopy }: IProps) {
 			<ButtonIcon
 				title={`Copy ${title.toLowerCase()}`}
 				icon={faClipboard}
-				iconCss='text-color-light dark:text-color-dark transition-colors duration-200'
+				iconCss='text-color-dark transition-colors duration-200'
 				onClick={() => {
 					setIsContentCopied(true);
 					setTimeout(() => setIsContentCopied(false), 1500);
