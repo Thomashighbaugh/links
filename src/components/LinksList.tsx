@@ -4,7 +4,7 @@ import links from '../config/links';
 
 export default function LinksList() {
 	return (
-		<ul className='w-full h-full  gap-y-4 mt-3 flex flex-col flex-wrap sm:gap-y-1 sm:flex-row md:flex-row lg:flex-row xl:flex-row -mx-2'>
+		<ul className='w-full h-full  gap-y-4 mt-3 flex flex-col flex-wrap sm:flex-row md:flex-row lg:flex-row xl:flex-row -mx-2'>
 			{links.map((link) => (
 				<li
 					key={link.text}
@@ -24,7 +24,7 @@ export default function LinksList() {
 							icon={link.icon}
 							className='w-10 h-10 hover:text-color-light absolute  m-10 text-color-dark'
 						/>
-						<span className='mx-auto text-color-dark md:invisible lg:invisible xl:invisible hover:text-color-light text-xl'>
+						<span className='mx-auto text-color-dark invisible sm:visible md:invisible lg:invisible xl:invisible hover:text-color-light text-xl'>
 							{link.text}
 						</span>
 					</a>
