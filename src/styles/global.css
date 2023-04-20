@@ -64,4 +64,5 @@ footer span {
 
 a {
 	font-weight: 900 !important;
+	text-transform: uppercase;
 }
