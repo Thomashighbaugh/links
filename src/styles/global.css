@@ -61,3 +61,7 @@ li a,
 footer span {
 	@apply md:text-lg lg:text-xl;
 }
+
+a {
+	font-weight: 900 !important;
+}
