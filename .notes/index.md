@@ -5,9 +5,10 @@
 -   [ ] TODO add additional emails
 -   [ ] TODO fix responsiveness
     -   at certain viewport both text appears and grid remains looking awful
--   [x] TODO update icon
--   [ ] TODO change the favicons webmanifest
+-   [x] DONE update icon
+-   [x] DONE change the favicons webmanifest
 
-### Template Item
+### Template Items
 
 -   [ ] TODO add
+-   [x] DONE
