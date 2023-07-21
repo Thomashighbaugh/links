@@ -10,7 +10,7 @@ export default function LinksList() {
 					key={link.text}
 					title={link.text}
 					tabIndex={0}
-					className=' mb-4 sm:mb-0 md:mb-4 px-2 min-w-[28%] lg:max-w-[28%] xl:max-w-[28%] md:max-w-[28%] sm:mx-0 mx-2 md:mx-2 lg:mx-2 xl:mx-2 rounded bg-accent-primary transition-all duration-400 hover:bg-accent-primary-state hover:-translate-y-2
+					className=' mb-4 sm:mb-0 md:mb-4 px-2 h-14 max-h-14 min-w-[28%] lg:max-w-[28%] xl:max-w-[28%] md:max-w-[28%] sm:mx-0 mx-2 md:mx-2 lg:mx-2 xl:mx-2 rounded bg-accent-primary transition-all duration-400 hover:bg-accent-primary-state hover:-translate-y-2
                 focus:bg-accent-primary-state focus:-translate-y-2 hover:drop-shadow-2xl hover:shadow-2xl hover:shadow-inner group'
 				>
 					<a
