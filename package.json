@@ -1,10 +1,10 @@
 {
 	"private": true,
-	"name": "business-link-next",
+	"name": "biolink",
 	"version": "0.0.1",
-	"author": "Doinel Atanasiu - doinel1atanasiu@gmail.com",
-	"description": "Open source Linktree alternative developed with Next.JS, TypeScript & Tailwind CSS.",
-	"repository": "https://github.com/doinel1a/business-link-next",
+	"author": "Thomas Leon Highbaugh - thighbaugh@zoho.com",
+	"description": "Personal Linktree alternative developed with Next.JS, TypeScript & Tailwind CSS.",
+	"repository": "https://github.com/Thomashighbaugh/biolink",
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
