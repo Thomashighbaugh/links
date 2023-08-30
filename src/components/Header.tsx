@@ -3,16 +3,13 @@ import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
 
 import useIsMobile from '../hooks/useIsMobile';
 
-
 import meta_tags from '../config/meta_tags';
 import details from '../config/details';
 
 export default function Header() {
-
-
 	return (
 		<header className='w-full' aria-label='Header'>
-	<h1 className='text-center'>{details.name_surname}</h1>
+			<h1 className='text-center'>{details.name_surname}</h1>
 			<div className='w-48 h-48 flex justify-center items-center mx-auto mb-2  bg-transparent'>
 				<img
 					src={details.hero_image_url}
@@ -21,7 +18,7 @@ export default function Header() {
 					alt='Hero image'
 				/>
 			</div>
-		
+
 			<h2 className='text-center'>{details.role}</h2>
 			<noscript>
 				<p className='w-full mt-6 text-xl text-center text-red-500'>

@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import links from "../config/links";
+import links from '../config/links';
 
 export default function LinksList() {
 	return (
