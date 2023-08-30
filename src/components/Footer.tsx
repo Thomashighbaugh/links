@@ -6,12 +6,13 @@ const year = new Date().getFullYear();
 
 export default function Footer() {
 	return (
-		<footer className='w-full flex justify-between items-center mt-20'>
-			<span>&copy; {year}</span>
+		<footer className='w-full flex  pr-8 pb-1 text-xs justify-between items-center fixed bottom-0'>
+
 			<div className='inline-flex items-center gap-x-[2px]'>
 				<ButtonCopy title='E-mail' contentToCopy={details.email} />
-				<span className='text-right'>{details.email}</span>
+				<span>Thomas Leon Highbaugh</span>		
 			</div>
+	<span className='text-right'>&copy; {year}</span>
 		</footer>
 	);
 }

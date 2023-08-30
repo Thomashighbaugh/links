@@ -13,11 +13,11 @@ export default function Header() {
 	return (
 		<header className='w-full' aria-label='Header'>
 	<h1 className='text-center'>{details.name_surname}</h1>
-			<div className='w-36 h-36 flex justify-center items-center mx-auto mb-2  bg-transparent'>
+			<div className='w-48 h-48 flex justify-center items-center mx-auto mb-2  bg-transparent'>
 				<img
 					src={details.hero_image_url}
-					width={120}
-					height={120}
+					width={640}
+					height={640}
 					alt='Hero image'
 				/>
 			</div>

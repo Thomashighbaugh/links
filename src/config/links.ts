@@ -20,14 +20,26 @@ import details from "./details";
 
 const links = [
 	{
+	
+		text: "Portfolio",
+		icon: faGlobe,
+		url: "https://thomasleonhighbaugh.me",
+	},
+		{
+		text: "Resume",
+		icon: faAddressCard,
+		url: "https://resume-thomas-leon-highbaugh.vercel.app/",
+	},
+
+	{
 		text: "GitHub",
 		icon: faGithub,
 		url: "https://github.com/Thomashighbaugh/",
 	},
-	{
-		text: "GitLab",
-		icon: faGitlab,
-		url: "https://gitlab.com/Thomashighbaugh/",
+		{
+		text: "LinkedIn",
+		icon: faLinkedinIn,
+		url: "https://www.linkedin.com/in/thomas-leon-highbaugh/",
 	},
 	{
 		text: "Dev.to",
@@ -61,22 +73,12 @@ const links = [
 		url: "https://twitter.com/thomashighbaugh",
 	},
 	{
-		text: "LinkedIn",
-		icon: faLinkedinIn,
-		url: "https://www.linkedin.com/in/thomas-leon-highbaugh/",
+		text: "GitLab",
+		icon: faGitlab,
+		url: "https://gitlab.com/Thomashighbaugh/",
 	},
 	{
-		text: "Resume",
-		icon: faAddressCard,
-		url: "https://resume-thomas-leon-highbaugh.vercel.app/",
-	},
-	{
-		text: "Website",
-		icon: faGlobe,
-		url: "https://thomasleonhighbaugh.me",
-	},
-	{
-		text: "E-mail me",
+		text: "E-mail",
 		icon: faEnvelope,
 		url: `mailto:${details.email}`,
 	},
