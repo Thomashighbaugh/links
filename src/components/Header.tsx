@@ -8,21 +8,18 @@ import details from '../config/details';
 
 export default function Header() {
 	return (
-		<header className='w-full' aria-label='Header'>
-			<h1 className='text-center'>{details.name_surname}</h1>
-			<div className='w-48 h-48 flex justify-center items-center mx-auto mb-2  bg-transparent'>
-				<img
-					src={details.hero_image_url}
-					width={640}
-					height={640}
-					alt='Hero image'
-				/>
+		<header className='w-full mt-0' aria-label='Header'>
+			<div className='hero-image'>
+				<h1 className='text-center pb-24 pt-24'>
+					{details.name_surname}
+				</h1>
+				<h2 className='text-center'>{details.role}</h2>
 			</div>
-
-			<h2 className='text-center'>{details.role}</h2>
 			<noscript>
-				<p className='w-full mt-6 text-xl text-center text-red-500'>
-					Enable JavaScript to enjoy all the features of this app.
+				<p className='w-full mt-6 text-xl text-center bg-black bg-opacity-75 '>
+					The functionality of this site is <em>not guarenteed</em>{' '}
+					without Javascript enabled! <hr /> Sorry for any
+					inconvenience this may cause.
 				</p>
 			</noscript>
 		</header>
