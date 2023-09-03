@@ -13,7 +13,7 @@ export default function Header() {
 				<h1 className='text-center pb-24 pt-24'>
 					{details.name_surname}
 				</h1>
-				<h2 className='text-center'>{details.role}</h2>
+				<h2 className='text-center pt-24'>{details.role}</h2>
 			</div>
 			<noscript>
 				<p className='w-full mt-6 text-xl text-center bg-black bg-opacity-75 '>

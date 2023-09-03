@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<MetaHead />
 
-			<main className='w-full max-w-4xl flex flex-col justify-center items-center m-auto p-8  '>
+			<main className='w-full max-w-4xl flex flex-col justify-center items-center m-auto pt-12'>
 				<Header />
 				<LinksList />
 				<Footer />
