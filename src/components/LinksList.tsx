@@ -11,7 +11,7 @@ export default function LinksList() {
 					key={link.text}
 					title={link.text}
 					tabIndex={0}
-					className='min-h-24 min-w-[28%] lg:max-w-[28%] xl:max-w-[28%] md:max-w-[28%] sm:mx-0 mx-2 md:mx-2 lg:mx-2 xl:mx-2 rounded  bg-gradient-to-t from-accent-primary via-color-light to-gray-500 transition-all duration-400 hover:bg-gradient-to-t hover:from-gray-400 hover:via-gray-200 hover:to-gray-300 hover:-translate-y-2
+					className='min-h-24 h-20 min-w-[28%] lg:max-w-[28%] xl:max-w-[28%] md:max-w-[28%] sm:mx-0 mx-2 md:mx-2 lg:mx-2 xl:mx-2 rounded  bg-gradient-to-t from-accent-primary via-color-light to-gray-500 transition-all duration-400 hover:bg-gradient-to-t hover:from-gray-500 hover:via-gray-200 hover:to-gray-300 hover:-translate-y-2
                 focus:bg-accent-primary-state focus:-translate-y-2 hover:drop-shadow-2xl hover:shadow-2xl hover:shadow-inner group'
 				>
 					<a
@@ -23,9 +23,9 @@ export default function LinksList() {
 					>
 						<FontAwesomeIcon
 							icon={link.icon}
-							className='w-12 h-12 max-h-12 max-w-12 group-hover:text-color-light absolute  mx-9 text-color-dark'
+							className='w-16 h-16 max-h-16 max-w-16 group-hover:text-color-light absolute  mx-9 text-color-dark'
 						/>
-						<span className='mx-auto text-color-dark md:invisible lg:invisible xl:invisible group-hover:text-color-light text-xl'>
+						<span className='mx-auto text-color-dark md:invisible lg:invisible xl:invisible group-hover:text-color-light text-2xl'>
 							{link.text}
 						</span>
 					</a>
