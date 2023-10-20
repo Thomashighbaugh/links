@@ -6,14 +6,17 @@ import {
 	faGitlab,
 	faInstagram,
 	faLinkedinIn,
-	faTwitch,
 	faTwitter,
+	faReddit,
 } from '@fortawesome/free-brands-svg-icons';
 import {
 	faEnvelope,
+	faPhone,
 	faGlobe,
 	faAddressCard,
-	faShoppingCart,
+    faEnvelopesBulk,
+    faEnvelopeOpenText,
+    faFaceLaughWink,
 } from '@fortawesome/free-solid-svg-icons';
 
 import details from './details';
@@ -40,6 +43,12 @@ const links = [
 		icon: faLinkedinIn,
 		url: 'https://www.linkedin.com/in/thomas-leon-highbaugh/',
 	},
+		{
+		text: 'E-mail',
+		icon: faEnvelopeOpenText,
+		url: `mailto:${details.email}`,
+	},
+
 	{
 		text: 'Dev.to',
 		icon: faDev,
@@ -62,11 +71,6 @@ const links = [
 		url: 'https://www.instagram.com/thomashighbaugh/',
 	},
 	{
-		text: 'OpenSea',
-		icon: faShoppingCart,
-		url: 'https://opensea.io/Thomashighbaugh',
-	},
-	{
 		text: 'Twitter',
 		icon: faTwitter,
 		url: 'https://twitter.com/thomashighbaugh',
@@ -76,11 +80,27 @@ const links = [
 		icon: faGitlab,
 		url: 'https://gitlab.com/Thomashighbaugh/',
 	},
-	{
-		text: 'E-mail',
+		{
+		text: 'Secondary E-mail',
 		icon: faEnvelope,
-		url: `mailto:${details.email}`,
+		url: `mailto:${details.email2}`,
 	},
+	{
+		text: "Hugging Face",
+		icon: faFaceLaughWink,
+		url: "https://huggingface.co/thomashighbaugh",
+	},
+	{
+		text: "Reddit",
+		icon: faReddit,
+		url: "https://www.reddit.com/user/ThomasLeonHighbaugh/"
+	},
+	{
+		text: "Phone",
+		icon: faPhone,
+		url:"tel:+15109070654"
+	}
+
 ];
 
 export default links;

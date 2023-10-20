@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import copy from 'copy-to-clipboard';
-import { faClipboard } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import ButtonIcon from './ButtonIcon';
 
@@ -16,7 +16,7 @@ export default function ButtonCopy({ title, contentToCopy }: IProps) {
 		<div className='relative'>
 			<ButtonIcon
 				title={`Copy ${title.toLowerCase()}`}
-				icon={faClipboard}
+				icon={faEnvelope}
 				iconCss='text-color-dark hover:text-color-light'
 				onClick={() => {
 					setIsContentCopied(true);
@@ -26,8 +26,8 @@ export default function ButtonCopy({ title, contentToCopy }: IProps) {
 				}}
 			/>
 			{isContentCopied && (
-				<div className='absolute left-1/2 -translate-x-1/2 mt-[2px] px-2 py-1 whitespace-nowrap rounded-full bg-accent-primary text-sm text-color-dark'>
-					<span className='w-2 h-2 absolute top-[-3px] left-1/2 -translate-x-1/2 rotate-45 rounded-xs bg-accent-primary'></span>
+				<div className='absolute left-1/2 -translate-x-1/2 mt-[2px] px-2 py-1 whitespace-nowrap  rounded-full bg-accent-primary text-sm text-color-dark'>
+					<span className='w-12 h-12 absolute top-[12px] left-1/2 -translate-x-1/2 rotate-45 rounded-xs bg-accent-primary'></span>
 					{`${title} copied!`}
 				</div>
 			)}
