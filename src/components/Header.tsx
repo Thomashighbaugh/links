@@ -10,7 +10,7 @@ export default function Header() {
 	return (
 		<header className='w-full mt-0' aria-label='Header'>
 			<div className='hero-image'>
-				<h1 className='text-center pb-24 pt-24'>
+				<h1 className='text-center pb-12 pt-12'>
 					{details.name_surname}
 				</h1>
 				<h2 className='text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl text-center pt-24'>{details.role}</h2>

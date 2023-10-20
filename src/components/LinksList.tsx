@@ -4,8 +4,8 @@ import links from '../config/links';
 
 export default function LinksList() {
 	return (
-		<ul className='w-full min-h-full grow gap-x-4  gap-y-4 p-12 flex flex-col flex-wrap sm:flex-col md:flex-row lg:flex-row xl:flex-row -mx-4 overflow-hidden'>
-		 
+		<ul className='w-full h-full grow gap-x-4  gap-y-4 p-12 flex flex-col flex-wrap sm:flex-col md:flex-row lg:flex-row xl:flex-row -mx-4 overflow-hidden'>
+
 			{links.map((link) => (
 				<li
 					key={link.text}
