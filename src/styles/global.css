@@ -13,7 +13,7 @@
 	--accent-primary-state: #868990; /* blue-800 */
 }
 
-html {
+body {
 	@apply flex flex-col justify-center h-full align-middle w-full min-w-full overflow-scroll;
 	font-family: 'Jost', sans-serif;
 	box-sizing: border-box;

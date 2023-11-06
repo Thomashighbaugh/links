@@ -81,7 +81,7 @@ const links = [
 		url: 'https://gitlab.com/Thomashighbaugh/',
 	},
 	{
-		text: 'Secondary E-mail',
+		text: 'Other E-mail',
 		icon: faEnvelope,
 		url: `mailto:${details.email2}`,
 	},

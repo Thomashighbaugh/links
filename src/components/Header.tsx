@@ -7,19 +7,19 @@ import details from '../config/details';
 export default function Header() {
 	return (
 		<header
-			className='max-w-6xl mt-36 md:mt-0 lg:mt-0 xl:mt-0'
+			className='max-w-6xl '
 			aria-label='Header'
 		>
-			<div className='inline-flex rounded-md border-2 mx-2 mr-0 sm:mr-0 md:mr-4 lg:mr-4 xl:mr-4 border-black bg-white p-6 font-bold shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]'>
+			<div className='flex content-center justify-center md:inline-flex lg:inline-flex xl:inline-flex rounded-md border-2 mx-2 mr-0 sm:mr-0 md:mr-4 lg:mr-4 xl:mr-4 border-black bg-white p-6 font-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]'>
 				<div className='max-w-5xl'>
-					<h1 className='text-left pb-6 pt-6 text-4xl text-black '>
+					<h1 className='text-left pb-6 pt-6 text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-black '>
 						{details.name_surname}
 					</h1>
 					<h2 className='text-black font-black motion-safe:animate-pulse  md:text-lg lg:text-lg xl:text-xl text-left '>
 						{details.role}
 					</h2>
 				</div>
-					<Image className="min-w-72 min-h-72" height={108} width={108} src='/hero-image.png' />
+					<Image className="min-w-72 min-h-72 justify-center" height={108} width={108} src='/hero-image.png' alt="logo of Thomas Leon Highbaugh" />
 			</div>
 
 			<noscript>
