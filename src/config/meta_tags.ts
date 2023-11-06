@@ -8,7 +8,7 @@ const meta_tags = {
 	keywords:
 		'linktree, links, social, link-in-bio, nextjs, tailwind, react, typescript, js, ts, tsx, jsx',
 	author: 'Thomas Leon Highbaugh',
-	og_image_url: `${app_url}/og-image.jpeg`,
+	og_image_url: `${app_url}/hero-image.png`,
 };
 
 export default meta_tags;

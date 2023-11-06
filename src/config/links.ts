@@ -14,9 +14,9 @@ import {
 	faPhone,
 	faGlobe,
 	faAddressCard,
-    faEnvelopesBulk,
-    faEnvelopeOpenText,
-    faFaceLaughWink,
+	faEnvelopesBulk,
+	faEnvelopeOpenText,
+	faFaceLaughWink,
 } from '@fortawesome/free-solid-svg-icons';
 
 import details from './details';
@@ -43,7 +43,7 @@ const links = [
 		icon: faLinkedinIn,
 		url: 'https://www.linkedin.com/in/thomas-leon-highbaugh/',
 	},
-		{
+	{
 		text: 'E-mail',
 		icon: faEnvelopeOpenText,
 		url: `mailto:${details.email}`,
@@ -80,27 +80,26 @@ const links = [
 		icon: faGitlab,
 		url: 'https://gitlab.com/Thomashighbaugh/',
 	},
-		{
+	{
 		text: 'Secondary E-mail',
 		icon: faEnvelope,
 		url: `mailto:${details.email2}`,
 	},
 	{
-		text: "Hugging Face",
+		text: 'Hugging Face',
 		icon: faFaceLaughWink,
-		url: "https://huggingface.co/thomashighbaugh",
+		url: 'https://huggingface.co/thomashighbaugh',
 	},
 	{
-		text: "Reddit",
+		text: 'Reddit',
 		icon: faReddit,
-		url: "https://www.reddit.com/user/ThomasLeonHighbaugh/"
+		url: 'https://www.reddit.com/user/ThomasLeonHighbaugh/',
 	},
 	{
-		text: "Phone",
+		text: 'Phone',
 		icon: faPhone,
-		url:"tel:+15109070654"
-	}
-
+		url: 'tel:+15109070654',
+	},
 ];
 
 export default links;
