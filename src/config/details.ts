@@ -5,7 +5,7 @@ const details = {
 	name_surname: 'Thomas Leon Highbaugh',
 	email: 'me@thomasleonhighbaugh.me',
 	email2: 'thighbaugh@zoho.com',
-	role: 'Web Developer, Linux Professional, Digital Artist',
+	role: 'Software Engineer && Digital Artist',
 };
 
 export default details;
