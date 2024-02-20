@@ -1,7 +1,7 @@
 {
 	"lang": "en-EN",
-	"name": "Biolink",
-	"short_name": "Biolink",
+	"name": "Links",
+	"short_name": "Links",
 	"description": "A linktree alternative written with Next.js, Typescript-React & Tailwind.css.",
 	"start_url": "/",
 	"display": "standalone",

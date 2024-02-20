@@ -1,4 +1,4 @@
-# Biolink
+# Links
 
 ![preview](./media/preview.png)
 

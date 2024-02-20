@@ -1,10 +1,10 @@
 {
 	"private": true,
-	"name": "biolink",
+	"name": "links",
 	"version": "0.0.1",
 	"author": "Thomas Leon Highbaugh - thighbaugh@zoho.com",
 	"description": "Personal Linktree alternative developed with Next.JS, TypeScript & Tailwind CSS.",
-	"repository": "https://github.com/Thomashighbaugh/biolink",
+	"repository": "https://github.com/Thomashighbaugh/links",
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",

@@ -1,8 +1,8 @@
-const app_url = 'https://biolink-delta.vercel.app/';
+const app_url = 'https://links.thomashighbaugh.me';
 
 const meta_tags = {
 	app_url,
-	title: 'Biolink',
+	title: 'Social Links | Thomas Highbaugh',
 	description:
 		'A landing page intended to act as a gateway to my other interconnected sites .',
 	keywords:
