@@ -30,7 +30,7 @@ const links = [
 	{
 		text: 'Resume',
 		icon: faAddressCard,
-		url: 'https://resume-thomas-leon-highbaugh.vercel.app/',
+		url: 'https://resume.thomasleonhighbaugh.me',
 	},
 
 	{
