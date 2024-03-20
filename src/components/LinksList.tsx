@@ -23,7 +23,7 @@ export default function LinksList() {
 							icon={link.icon}
 							className='w-12 h-12 max-h-12 max-w-12 absolute  mx-9 text-black'
 						/>
-						<span className='mx-auto text-black md:invisible lg:invisible xl:invisible  text-2xl'>
+						<span className='mx-auto text-black md:invisible lg:invisible xl:invisible  text-xl'>
 							{link.text}
 						</span>
 					</a>

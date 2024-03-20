@@ -12,6 +12,8 @@ import {
 import {
 	faEnvelope,
 	faPhone,
+	faCoffee,
+	faHeart,
 	faGlobe,
 	faAddressCard,
 	faEnvelopesBulk,
@@ -94,6 +96,16 @@ const links = [
 		text: 'Reddit',
 		icon: faReddit,
 		url: 'https://www.reddit.com/user/ThomasLeonHighbaugh/',
+	},
+	{
+		text: 'BuyMeACoffee',
+		icon: faCoffee,
+		url: 'https://www.buymeacoffee.com/thomashighbaugh',
+	},
+	{
+		text: 'Ko-Fi',
+		icon: faHeart,
+		url:'https://ko-fi.com/thomashighbaugh'
 	},
 	{
 		text: 'Phone',
