@@ -57,3 +57,21 @@ a {
 	font-weight: 900 !important;
 	text-transform: uppercase;
 }
+
+h1 {
+	text-shadow:
+		0.25rem 0.25rem 0 #303030,
+		0.3rem 0.3rem 0 #303030,
+		0.4rem 0.4rem 0 #303030,
+		0.5rem 0.5rem 0 #303030,
+		0.6rem 0.6rem 0 #3c3c3c,
+		0.7rem 0.7rem 0 #3c3c3c,
+		0.75rem 0.75rem 0 #3c3c3c,
+		0.8rem 0.8rem 0 #4c4c4c,
+		0.9rem 0.9rem 0 #4c4c4c,
+		1rem 1rem 0 #4c4c4c,
+		-2px 0 1px #000000,
+		0 2px 1px #000000,
+		2px 0 1px #000000,
+		0 -2px 1px #000000;
+}
